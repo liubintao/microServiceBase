@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: provider-service
+server:
+  port: 8081
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery:8761/eureka/
