@@ -2,7 +2,7 @@ spring:
   application:
     name: eureka-server
   profiles:
-    active: security
+    active: default
 ---
 spring:
   profiles: default
