@@ -1,0 +1,21 @@
+server:
+  port: 8010
+management:
+  security:
+    enabled: false
+info:
+  app:
+    java:
+      source: ${java.version}
+      target: ${java.version}
+user:
+  userServiceUrl: http://localhost:8000/
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: consumer-movie
