@@ -1,6 +1,6 @@
-package com.robst.service;
+package com.robust.service;
 
-import com.robst.entity.User;
+import com.robust.entity.User;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;

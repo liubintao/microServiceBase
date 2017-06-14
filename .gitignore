@@ -24,3 +24,5 @@ hs_err_pid*
 /microservice-demo/eureka-server/eureka-server.iml
 /microservice-demo/microservice-demo.iml
 /microservice-demo/provider-service/provider-service.iml
+/microservice-demo/consumer-movie-feign/consumer-movie-feign.iml
+/microservice-demo/consumer-feign-ribbon-customing/consumer-feign-ribbon-customing.iml

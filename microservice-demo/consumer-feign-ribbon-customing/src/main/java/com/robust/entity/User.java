@@ -1,4 +1,4 @@
-package com.robst.entity;
+package com.robust.entity;
 
 import lombok.Data;
 

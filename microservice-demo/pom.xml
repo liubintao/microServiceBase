@@ -12,7 +12,8 @@
         <module>provider-service-h2</module>
 		<module>consumer-movie</module>
         <module>consumer-movie-feign</module>
-    </modules>
+		<module>consumer-feign-ribbon-customing</module>
+	</modules>
     <packaging>pom</packaging>
 
 	<name>microservices-demo</name>

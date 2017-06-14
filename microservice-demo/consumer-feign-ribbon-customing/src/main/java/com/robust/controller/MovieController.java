@@ -1,7 +1,7 @@
-package com.robst.controller;
+package com.robust.controller;
 
-import com.robst.entity.User;
-import com.robst.service.UserService;
+import com.robust.entity.User;
+import com.robust.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
