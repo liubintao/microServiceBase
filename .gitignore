@@ -24,5 +24,9 @@ hs_err_pid*
 /microservice-demo/eureka-server/eureka-server.iml
 /microservice-demo/microservice-demo.iml
 /microservice-demo/provider-service/provider-service.iml
-/microservice-demo/consumer-movie-feign/consumer-movie-feign.iml
 /microservice-demo/consumer-feign-ribbon-customing/consumer-feign-ribbon-customing.iml
+/microservice-demo/config-server/config-server.iml
+/microservice-demo/consumer-feign-mq/consumer-feign-mq.iml
+/microservice-demo/gateway-zuul/gateway-zuul.iml
+/microservice-demo/turbine-mq/turbine-mq.iml
+/microservice-demo/consumer-feign/consumer-feign.iml

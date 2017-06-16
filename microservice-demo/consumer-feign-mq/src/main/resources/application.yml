@@ -2,7 +2,12 @@ server:
   port: 8010
 spring:
   application:
-    name: consumer-movie-feign
+    name: consumer-feign
+  rabbitmq:
+    host: 192.168.100.3
+    port: 5673
+    username: admin
+    password: admin
 eureka:
   client:
     serviceUrl:

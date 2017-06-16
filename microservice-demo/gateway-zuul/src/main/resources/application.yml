@@ -1,0 +1,26 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: gateway-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+zuul:
+  #忽略所有微服务
+#    ignored-services: '*'
+    #忽略指定的服务名
+  #  ignored-services: consumer-movie
+  prefix: /api
+  strip-prefix: true
+  routes:
+    provider-service: /user/**
+    consumer-service: /consumer/**
+    provider-service1:
+      path: /user/**
+#      strip-prefix: false
+logging:
+  level: debug

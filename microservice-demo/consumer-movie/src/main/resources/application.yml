@@ -18,4 +18,4 @@ eureka:
     prefer-ip-address: true
 spring:
   application:
-    name: consumer-movie
+    name: consumer-service

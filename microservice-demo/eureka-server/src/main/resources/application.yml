@@ -16,6 +16,10 @@ eureka:
     fetch-registry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  #单机版关闭自我保护，并且调整清理关闭节点的间隔时间
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 4000
 ---
 spring:
   profiles: peer1
